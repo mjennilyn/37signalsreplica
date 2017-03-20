@@ -35,6 +35,18 @@ header > h1,
 	text-align: center;
 }
 
+@media (max-width:991px) {
+	#rework h1 {
+		padding-right: 115px;
+	}
+}
+
+@media (max-width:991px) {
+	.crumple img {
+		padding-right:80px
+	}
+}
+
 hr {
 	background: white url('../img/img-hr.png') no-repeat 50%;
 	border: 0;
@@ -91,6 +103,19 @@ header > h2 {
 	margin: 10px 0;
 	color: #222222;
 }
+
+@media (max-width:815px) {
+		header h1 {
+			font-size: 48px;
+			/*padding-left: 10px;
+			margin-left: 20px;*/
+			text-align: left;
+	}
+}
+
+
+
+
 
 #products {
 	height: 277px;
@@ -173,8 +198,15 @@ header > h2 {
 	color: #336699;
 	cursor: pointer;
 	font-size: 14px;
-	text-align: center;
+	text-align: center;	
 }
+
+@media (max-width:1109px) {
+	.meet p {
+		padding-left: 145px;
+	}
+}
+	
 
 .meet p:hover {
 	color: #6699cc;
@@ -196,6 +228,12 @@ header > h2 {
 #manifesto {
 	height: 445px;
 	margin-bottom: 50px;
+}
+
+@media (max-width:991px) {
+	.crumple img {
+		padding-right:80px
+	}
 }
 
 #manifesto .column,
@@ -274,6 +312,13 @@ header > h2 {
 	width: 69px;
 }
 
+@media (max-width:1035px) {
+	.arrow-right {
+	display: none;
+}
+}
+
+
 /*Crumpled paper image*/
 /*moved the crumpled paper and arrow together*/
 .crumple {
@@ -286,6 +331,24 @@ header > h2 {
 	font-size: 12px;
 	text-align: center;
 }
+
+@media (max-width:1039px) {
+	.crumple {
+		padding-right: 50px;
+	}
+	.crumple p {
+		padding-right: 15px;
+		display: none;
+	}
+}
+
+@media (max-width:991px) {
+	.crumple p {
+		padding-right:80px;
+	}
+}
+
+
 
 .crumple p:hover {
 	color: #6699cc;
